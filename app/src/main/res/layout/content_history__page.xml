@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutCompat"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
 
     <TextView
         android:id="@+id/textView"
@@ -20,8 +24,8 @@
 
     <ListView
         android:id="@+id/listview"
-        android:layout_width="408dp"
-        android:layout_height="387dp"
+        android:layout_width="417dp"
+        android:layout_height="502dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

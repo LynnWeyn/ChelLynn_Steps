@@ -12,4 +12,14 @@
     <string name="title_activity_personal_">Personal_Activity</string>
     <string name="title_activity_personal__page">Personal_Page</string>
     <string name="title_activity_history__page">History_Page</string>
+
+    <string-array name="GradeClasses">
+        <item>Class 10a</item>
+        <item>Class 10b</item>
+        <item>Class 11a</item>
+        <item>Class 11b</item>
+        <item>Class 12a</item>
+        <item>Class 12b</item>
+        <item>Class 12c</item>
+    </string-array>
 </resources>
