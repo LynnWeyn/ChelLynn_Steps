@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".History_Page"
+            android:label="@string/title_activity_history__page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".Personal_Page"
             android:label="@string/title_activity_personal__page"
             android:theme="@style/AppTheme.NoActionBar">
