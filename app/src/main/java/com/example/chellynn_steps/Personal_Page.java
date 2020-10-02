@@ -9,13 +9,10 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,11 +29,17 @@ public class Personal_Page extends AppCompatActivity implements SensorEventListe
         setContentView(R.layout.activity_personal__page);
 
         FloatingActionButton btn = (FloatingActionButton) findViewById(R.id.toHistory);
+        FloatingActionButton btnToClasses = (FloatingActionButton) findViewById(R.id.toClasses);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Personal_Page.this, History_Page.class));
+            }});
+        btnToClasses.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Personal_Page.this, Student_Classes.class));
             }});
 
         step_display = (TextView) findViewById(R.id.tv_steps);
