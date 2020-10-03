@@ -50,7 +50,7 @@ public class Personal_Page extends AppCompatActivity implements SensorEventListe
         classButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Personal_Page.this, History_Page.class)); //to change to Class_Page
+                startActivity(new Intent(Personal_Page.this, Student_Classes.class)); //to change to Class_Page
             }});
 
         //button from home to school page

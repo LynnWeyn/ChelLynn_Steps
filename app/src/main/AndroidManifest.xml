@@ -10,13 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".History_Page"
-            android:label="@string/title_activity_history__page"
+            android:name=".School_Activity"
+            android:label="@string/title_activity_school_"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name="Student_Classes"
+            android:name=".History_Page"
+            android:fontFamily="casual"
+            android:label="@string/title_activity_history__page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Student_Classes"
+            android:fontFamily="casual"
             android:label="@string/title_activity_student_class"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Personal_Page"
             android:label="@string/title_activity_personal__page"

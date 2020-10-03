@@ -57,7 +57,7 @@ public class History_Page extends AppCompatActivity {
         arrayList.add("02/09/2020 - 8950 steps");
 
 
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this, andro.layout.simple_list_item_1,arrayList);
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList);
         listView.setAdapter(arrayAdapter);
 
     }

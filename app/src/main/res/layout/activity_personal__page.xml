@@ -14,14 +14,14 @@
         android:layout_height="wrap_content"
 
         android:layout_marginBottom="10dp"
-        android:text="Your Steps Today: "
+        android:fontFamily="casual"
+        android:text="Your Total Steps:"
         android:textSize="40dp"
         app:layout_constraintBottom_toTopOf="@+id/tv_steps"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.665"
+        app:layout_constraintVertical_bias="0.653"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <TextView
@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:text="0"
         android:textSize="80dp"
+        android:fontFamily="casual"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +42,7 @@
         android:layout_height="84dp"
         android:backgroundTint="#9C27B0"
         android:text="HISTORY"
+        android:fontFamily="casual"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,6 +58,7 @@
         android:layout_height="84dp"
         android:backgroundTint="#9C27B0"
         android:text="CLASS"
+        android:fontFamily="casual"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,6 +73,7 @@
         android:layout_height="84dp"
         android:backgroundTint="#9C27B0"
         android:text="SCHOOL"
+        android:fontFamily="casual"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -98,8 +102,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#D600B2"
         android:hint="Enter your username here"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+        android:fontFamily="casual"
+        tools:layout_editor_absoluteX="29dp"
         tools:layout_editor_absoluteY="30dp" />
 
     <Spinner
@@ -126,6 +130,7 @@
         android:layout_marginTop="35dp"
         android:layout_marginBottom="32dp"
         android:text="Your Class:"
+        android:fontFamily="casual"
         app:layout_constraintBottom_toTopOf="@+id/tv_info"
         app:layout_constraintEnd_toStartOf="@+id/spinner"
         app:layout_constraintHorizontal_bias="0.0"
@@ -139,6 +144,7 @@
         android:layout_width="318dp"
         android:layout_height="42dp"
         android:progressTint="#6E0081"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
