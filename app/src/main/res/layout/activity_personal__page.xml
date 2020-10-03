@@ -98,7 +98,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#D600B2"
         android:hint="Enter your username here"
-        tools:layout_editor_absoluteX="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
         tools:layout_editor_absoluteY="30dp" />
 
     <Spinner
