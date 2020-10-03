@@ -12,6 +12,7 @@
     <string name="title_activity_personal_">Personal_Activity</string>
     <string name="title_activity_personal__page">Personal_Page</string>
     <string name="title_activity_history__page">History_Page</string>
+    <string name="title_activity_student_class">Personal_Page</string>
 
     <string-array name="GradeClasses">
         <item>Class 10a</item>
