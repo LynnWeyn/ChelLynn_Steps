@@ -14,6 +14,7 @@
     <string name="title_activity_history__page">History_Page</string>
     <string name="title_activity_student_class">Personal_Page</string>
 
+    <string name="title_activity_school_">School_Activity</string>
     <string-array name="GradeClasses">
         <item>Class 10a</item>
         <item>Class 10b</item>
