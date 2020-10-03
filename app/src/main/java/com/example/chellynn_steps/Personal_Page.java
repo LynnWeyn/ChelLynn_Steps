@@ -88,7 +88,8 @@ public class Personal_Page extends AppCompatActivity implements SensorEventListe
     public void onSensorChanged(SensorEvent event) {
         if (running){ //only update display if app open
             step_display.setText(String.valueOf(event.values[0])); //change text
-            progressBar.setProgress((int) (event.values[0]/1000)*100); //update progress bar
+            int i = (int) ((event.values[0]/1000)*100); //should be /10 000 but then progress too small to test with
+            progressBar.setProgress(i); //update progress bar
         }
     }
     @Override
