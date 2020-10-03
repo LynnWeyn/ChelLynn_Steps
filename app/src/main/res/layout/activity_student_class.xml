@@ -20,28 +20,37 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:paddingTop="3dp"
+        android:text="27 268 / 100 000"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="40dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="85dp">
 
         <ProgressBar
-            android:id="@+id/progressBar2"
+            android:id="@+id/classProgressBar"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="132dp"
-            android:layout_height="85dp"
-            android:text="TextView" />
+            android:layout_weight="1"
+            android:progress="27"
+            />
 
     </LinearLayout>
 
     <ListView
+        android:id="@+id/listOfClass"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar4"
