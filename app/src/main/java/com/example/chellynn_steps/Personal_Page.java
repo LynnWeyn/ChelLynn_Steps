@@ -58,7 +58,7 @@ public class Personal_Page extends AppCompatActivity implements SensorEventListe
         schoolButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Personal_Page.this, History_Page.class)); //to change to School_Page
+                startActivity(new Intent(Personal_Page.this, School_Activity.class)); //to change to School_Page
             }});
 
         step_display = (TextView) findViewById(R.id.tv_steps);
