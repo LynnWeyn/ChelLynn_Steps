@@ -96,12 +96,16 @@
         android:id="@+id/textInputEditText"
         android:layout_width="397dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="#D600B2"
         android:hint="Enter your username here"
         tools:layout_editor_absoluteX="29dp"
         tools:layout_editor_absoluteY="30dp" />
 
     <Spinner
         android:id="@+id/spinner"
+        android:indeterminateOnly="true"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+
         android:layout_width="218dp"
         android:layout_height="27dp"
         android:layout_marginTop="50dp"
@@ -127,5 +131,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputEditText"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/personalProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="318dp"
+        android:layout_height="42dp"
+        android:progressTint="#6E0081"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_steps" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
